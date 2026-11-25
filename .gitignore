@@ -155,3 +155,26 @@ vite.config.ts.timestamp-*
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
+
+# v0 internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+
+# Additional environment protection
+.env*.local
+
+# Editor and temporary files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Test reports
+playwright-report/
+test-results/
